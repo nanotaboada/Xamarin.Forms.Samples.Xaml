@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:Xamarin.Forms.Samples.Xaml"
+	x:Class="Xamarin.Forms.Samples.Xaml.LoginPage">
+
+	<StackLayout Spacing="20" Padding="20" VerticalOptions="Center">
+		<Image Source="codevel.png" />
+		<Entry Placeholder="Enter your email" Text="{Binding Email}" />
+		<Entry Placeholder="Password" Text="{Binding Password}" IsPassword="true"/>
+	    <Button Text="Login" TextColor="White" BackgroundColor="#377EB8" />
+	</StackLayout>
+	
+</ContentPage>
