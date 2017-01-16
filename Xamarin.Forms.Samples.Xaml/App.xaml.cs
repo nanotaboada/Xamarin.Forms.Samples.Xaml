@@ -1,6 +1,4 @@
-﻿using Xamarin.Forms;
-
-namespace Xamarin.Forms.Samples.Xaml
+﻿namespace Xamarin.Forms.Samples.Xaml
 {
 	public partial class App : Application
 	{
@@ -11,19 +9,10 @@ namespace Xamarin.Forms.Samples.Xaml
 			MainPage = new LoginPage();
 		}
 
-		protected override void OnStart()
-		{
-			// Handle when your app starts
-		}
+		protected override void OnStart() {}
 
-		protected override void OnSleep()
-		{
-			// Handle when your app sleeps
-		}
+		protected override void OnSleep() {}
 
-		protected override void OnResume()
-		{
-			// Handle when your app resumes
-		}
+		protected override void OnResume() {}
 	}
 }
