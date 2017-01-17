@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="ar.com.nanotaboada.codevel_micro-isv">
+	<uses-sdk android:minSdkVersion="15" />
+	<application android:label="Codevel Micro-ISV">
+	</application>
+</manifest>
